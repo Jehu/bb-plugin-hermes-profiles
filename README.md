@@ -1,6 +1,6 @@
 # Hermes Profiles for bb
 
-Adds a selectable bb ACP provider for each configured Hermes profile. Each provider starts `hermes -p <profile> acp`, so its Hermes configuration, credentials, identity and sessions remain isolated from other profiles. The plugin uses bb's published ACP bridge; it does not implement a second ACP adapter.
+Adds a selectable [bb](https://github.com/get-bb/bb) ACP provider for each configured Hermes profile. Each provider starts `hermes -p <profile> acp`, so its Hermes configuration, credentials, identity and sessions remain isolated from other profiles. The plugin uses bb's published ACP bridge; it does not implement a second ACP adapter.
 
 ## Install and configure
 
